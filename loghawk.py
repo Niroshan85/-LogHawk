@@ -9,10 +9,10 @@ from twilio.rest import Client
 DEFAULT_LOG_FILE = "/home/student/Desktop/logs/logs.txt"
 
 # Twilio credentials (replace with your own)
-ACCOUNT_SID = 'AC44d9dc0f54a9ecf12fa1a46d76ae838a'
-AUTH_TOKEN = '34340d24a3a552004052b50f744c56d6'
-FROM_PHONE = '+14389004545'  # Twilio phone number
-TO_PHONE = '+16472725232'  # The phone number to receive the alert
+ACCOUNT_SID = 'SID'
+AUTH_TOKEN = 'TOKEN'
+FROM_PHONE = ' Phone number Twilio'  # Twilio phone number
+TO_PHONE = 'Recipient number'  # The phone number to receive the alert
 
 def send_sms_alert(message):
     """Send an SMS alert using Twilio."""

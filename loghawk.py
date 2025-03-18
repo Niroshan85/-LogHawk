@@ -11,8 +11,8 @@ DEFAULT_LOG_FILE = "/path/to/logfile.log"
 # Twilio credentials (replace with your own)
 ACCOUNT_SID = 'SID'
 AUTH_TOKEN = 'TOKEN'
-FROM_PHONE = ' Phone number Twilio'  # Twilio phone number
-TO_PHONE = 'Recipient number'  # The phone number to receive the alert
+FROM_PHONE = ' phone_number_twilio'  # Twilio phone number
+TO_PHONE = 'recipient_number'  # The phone number to receive the alert
 
 def send_sms_alert(message):
     """Send an SMS alert using Twilio."""

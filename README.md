@@ -5,10 +5,15 @@ LogHawk is a robust log monitoring tool tailored for security teams to efficient
 
 ## Features 🚀
 ✓ failed login attempts and brute-force attacks.
+
 ✓ Monitors for unauthorized access (HTTP 401 errors).
+
 ✓ Identifies suspicious script executions.
+
 ✓ Recognizes critical errors and unusual traffic spikes.
+
 ✓ Sends real-time SMS alerts via Twilio when threats are detected.
+
 ✓ Supports automated monitoring via cron jobs.
 
 ## Installation💻
@@ -42,6 +47,10 @@ Suspicious Activity Detected:
 [ALERT] IP 203.0.113.50 made multiple failed attempts (401) within 2.0 seconds.
 [ALERT] IP 203.0.113.50 made multiple failed attempts (401) within 2.0 seconds.
 ```
+### **SMS Alert **
+![image](https://github.com/user-attachments/assets/331bdee4-3134-4337-918c-8bddcacd6cb3)
+
+
 ## Automating LogHawk with Cron
 In the cron table, you'll define when to run the LogHawk script. For example, to run the script every hour, add the following line:
 Use the crontab command to open the cron table for editing.

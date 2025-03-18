@@ -6,7 +6,7 @@ from datetime import datetime
 from twilio.rest import Client
 
 # Default log file path
-DEFAULT_LOG_FILE = "/home/student/Desktop/logs/logs.txt"
+DEFAULT_LOG_FILE = "/path/to/logfile.log"
 
 # Twilio credentials (replace with your own)
 ACCOUNT_SID = 'SID'
